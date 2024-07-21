@@ -1,0 +1,25 @@
+/* UserProfile.css */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add any other styles you need */
+  }
+  
+  .profile-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .profile-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style the first column (key names) */
+  .profile-table td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Add any other styling you want for the table */
+  
