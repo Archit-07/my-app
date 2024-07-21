@@ -5,10 +5,10 @@ import MenuItem from '@mui/material/MenuItem';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import Dashboard from './dashboard';
-import UserProfile from './profile'; // Import your Profile component
+import Dashboard from './DashboardCustom';
+import UserProfile from './UserProfile'; // Import your Profile component
 import { useNavigate } from "react-router-dom";
-import LoginForm from './login';
+import LoginForm from './LoginForm';
 
 export default function MenuBar() {
   const [selectedMenuItem, setSelectedMenuItem] = useState("Dashboard");
